@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Eduardo Hernand" />
+  <title>Minimal calculator</title>
+</head>
+<body>
+  <main>
+    <h1>Minimal calculator</h1>
+
+    <form action="">
+      <label for="input-one">
+        <span>First value</span>
+        <input type="number" name="input-one" id="input-one" placeholder="0" />
+      </label>
+      <label for="input-two">
+        <span>Second value</span>
+        <input type="number" name="input-two" id="input-two" placeholder="0" />
+      </label>
+
+      <ul>
+        <li><button id="add" type="button">➕ Add</button></li>
+        <li><button id="subtract" type="button">➖ Subtract</button></li>
+        <li><button id="multiply" type="button">✖️ Multiply</button></li>
+        <li><button id="divide" type="button">➗ Divide</button></li>
+      </ul>
+    </form>
+
+    <h2>The result is:</h2>
+    <p id="result"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
